@@ -1,5 +1,5 @@
-<?php include('includes/session.php')?>
-<?php include('includes/config.php')?>
+<?php include('./includes/session.php')?>
+<?php include('./includes/config.php')?>
 
 <?php
 if (isset($_GET['delete'])) {
@@ -35,7 +35,7 @@ if (isset($_GET['delete'])) {
     }
 
     //********************Selection********************
-     $query = "SELECT note_id,title,note,time_in FROM notes WHERE user_id = \"$session_id\" ";
+     $query = "SELECT note_id,title,note,time_in FROM notes WHERE user_ID = \"$session_id\" ";
 
     if(mysqli_query($conn, $query)){
 
@@ -167,7 +167,7 @@ if (isset($_GET['delete'])) {
                         </div>
                         <div class="form-group">
                           <label>Note</label>
-                          <textarea name="note" class="form-control" rows="8" data-minwords="8" data-required="true" placeholder="Take a Note ......"></textarea>
+                          <textarea name="note" class="form-control" rows="8" data-minwords="8" data-required="true" placeholder="Take a Note ......"><?php echo $row['note']; ?></textarea>
                         </div>
                         <div class="m-t-lg"><button class="btn btn-sm btn-default" name="submit" type="submit">Add a note</button></div>
                       </form>
@@ -218,7 +218,7 @@ if (isset($_GET['delete'])) {
                       <div class="wrapper">
                         <section class="panel panel-default">
                           <?php
-                             $get_note = mysqli_query($conn,"select * from notes WHERE user_id = \"$session_id\" LIMIT 1") or die(mysqli_error());
+                             $get_note = mysqli_query($conn,"select * from notes WHERE user_ID = \"$session_id\" LIMIT 1") or die(mysqli_error());
                              while ($row = mysqli_fetch_array($get_note)) {
                              $id = $row['note_id'];
                                  ?>

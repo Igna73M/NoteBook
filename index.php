@@ -54,11 +54,11 @@ if(isset($_POST['signin']))
         <form name="signin" method="post">
           <div class="panel-body wrapper-lg">
           	<div class="form-group">
-            <label class="control-label">Email</label>
-            <input name="email" type="email" placeholder="email@example.com" class="form-control input-lg">
+            <label class="control-label" for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="email@example.com" class="form-control input-lg">
           </div>
           <div class="form-group">
-            <label class="control-label">Password</label>
+            <label class="control-label" for="inputPassword">Password</label>
             <input name="password" type="password" id="inputPassword" placeholder="Password" class="form-control input-lg">
           </div>
           <div class="line line-dashed"></div>

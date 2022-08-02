@@ -54,15 +54,15 @@ if(isset($_POST['signup']))
         <form name="signup" method="POST">
           <div class="panel-body wrapper-lg">
           	 <div class="form-group">
-	            <label class="control-label">Name</label>
-	            <input name="name" type="text" placeholder="eg. Your name or company" class="form-control input-lg">
+	            <label class="control-label" for="name" >Name</label>
+	            <input name="name" type="text" id="name" placeholder="eg. Your name or company" class="form-control input-lg">
 	          </div>
 	          <div class="form-group">
-	            <label class="control-label">Email</label>
-	            <input name="email" type="email" placeholder="test@example.com" class="form-control input-lg">
+	            <label class="control-label" for="email">Email</label>
+	            <input id="email" name="email" type="email" placeholder="test@example.com" class="form-control input-lg">
 	          </div>
 	          <div class="form-group">
-	            <label class="control-label">Password</label>
+	            <label class="control-label" for="inputPassword" >Password</label>
 	            <input name="password" type="password" id="inputPassword" placeholder="Type a password" class="form-control input-lg">
 	          </div>
 	          <div class="line line-dashed"></div>

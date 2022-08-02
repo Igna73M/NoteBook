@@ -1,20 +1,13 @@
 <?php
 
-define('DB_HOST','localhost');
-define('DB_USER','root');
-define('DB_PASS','');
-define('DB_NAME','notebook');
 
-$conn = mysqli_connect('localhost','root','','notebook') or die(mysqli_error());
+$DB_HOST='localhost'; // host name
+$DB_USER='root';   // database user name
+$DB_PASS='';   // database password
+$DB_NAME = 'notebook'; // database name
 
-// Establish database connection.
-try
-{
-$dbh = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME,DB_USER, DB_PASS,array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'"));
+$conn = mysqli_connect($DB_HOST,$DB_USER,$DB_PASS,$DB_NAME);
+if(!$conn){
+    die('Could not Connect MySql Server:' .mysql_error());
 }
-catch (PDOException $e)
-{
-exit("Error: " . $e->getMessage());
-}
-
 ?>
