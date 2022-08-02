@@ -35,11 +35,3 @@
 >#### <li style="list-style-type:circle">mysql</li>
 >
  </ul></ul><br><hr>
-
-## Project's View:
-![login](./images/login_view.png)<br>
-![Signup](./images/signup_view.png)<br>
-![app_view](./images/after_view.png) <br>
-
-
-><h2> <b>The product are still in production ; feel free to give any idea or a suggestion.</b> </h2>
