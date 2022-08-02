@@ -42,4 +42,4 @@
 ![app_view](./images/after_view.png) <br>
 
 
-><h2> <b>The product are still in production ; fill free to give any idea or a suggestion.</b> </h2>
+><h2> <b>The product are still in production ; feel free to give any idea or a suggestion.</b> </h2>
