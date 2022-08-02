@@ -1,0 +1,126 @@
+﻿________________
+
+Table of Contents
+LIST OF FIGURES        2
+1.        Introduction        3
+1.1        Project Summary        3
+1.2        Problem statement        3
+1.3        Objectives        3
+1.4        Project Rationale        3
+2.        Methodologies and Methods        3
+2.1        Data collection methodology        3
+2.2        Tools to be used        3
+2.2.1        Hardware tools        3
+2.2.2        Software tools        3
+3.        System Analysis and Design        3
+3.1        Requirement Specifications        3
+3.1.1        Functional requirements        3
+3.1.2        Data Requirements        3
+3.1.3        User Requirements        3
+3.1.4        Security Requirements        3
+3.1.5        Non-functional Requirements        3
+3.2        System Design        4
+3.2.1        System overall architecture        4
+3.2.2        System information flow        4
+4.        System Implementation        4
+4.1        Landing page        4
+4.2        Login page        5
+4.3        And so on, at least 5 pages of you        6
+5.        Conclusion        7
+6.        Recommendation        7
+7.        Appendix        7
+
+
+
+
+
+
+
+
+LIST OF FIGURES
+Figure 1: Overall structure        3
+Figure 2: Project landing page        4
+Figure 3: Login page        4
+Figure 4: List of users        5
+Figure 5: User details        5
+Figure 6: Edit option        6
+________________
+
+
+1. Introduction
+   1. Project Summary
+* On this project after a user created account ,he/she login his/her account and take notes / update it and save it in the account he/she has created.
+   1. Problem statement
+* This will solve the problem of an organized collection of notes and help for easy to remember where your notes were.
+   1. Objectives
+* To bring a web based application to students ; an application which helps students to save their notes in an organized way.
+   1. Project Rationale
+* Importance of your project solution. Beneficiaries.
+2. Methodologies and Methods
+   1. Data collection methodology
+* How did you know the problem? By observation? Did you make a site visit? Details?
+   1. Tools to be used
+      1. Hardware tools
+* Laptop / smartphone /tablet
+      1. Software tools
+first of all you need to install : Xampp, 
+3. System Analysis and Design
+   1. Requirement Specifications
+      1. Functional requirements
+* to use the app , user need to have an account and use it by logging to his/her account.
+      1. Data Requirement:
+      2.   Entity Relation Model Diagram (ERD) of the System
+
+
+   3. User Requirements
+   * This app will be used by students.
+   1. Security Requirements
+   * The security measures of the system : Password encryption
+
+
+   2. System Design
+
+
+   2. System overall architecture
+   * overall system flow.
+
+
+Figure 1: Overall structure
+   3. System information flow
+  
+
+   4. System Implementation
+   1. Login page
+                  Step 1: First make an account and login
+    Step 2: Create notes
+  
+
+
+
+Edit notes
+  
+
+
+
+
+
+   5. Conclusion
+   * The goal of the project was to create a web based app for students ; an app which will allow users to save on files or documents in an organized way in the user’s account and give the mechanism of sharing data between two accounts.
+   * But the project is still in production .
+   6. Recommendation
+   * I have learned that, Before I start to develop or work on any projects , I have to divide them into small tasks that are easy to accomplish with the same motivation.
+
+
+   * What do I recommend to:
+   1. Other students 
+To start with the small ideas they have in mind
+   2. Department
+You have to work hard with all your good efforts.
+   3. Beneficiaries of  project proposal :
+I recommend this project to student because it’s not expensive 
+   7. Appendix
+   * https://github.com/MugabeIgnace/NoteBook
+   * 
+
+FINAL REPORT TEMPLATE FOR WEB TECHNOLOGY COURSE
+	MUGABE NSHUTI IGNACE
